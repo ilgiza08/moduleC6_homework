@@ -1,0 +1,43 @@
+:root {
+    --color: rgb(186,215,237);
+}
+
+.chat, input, .btn {
+    border:
+        5px solid var(--color);
+    margin: 0px 5px;
+    padding: 10px 0;
+    border-radius: 2px;
+}
+
+.chat {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    height: max-content;
+    min-height: 300px;
+    justify-content: flex-end;
+}
+
+input {
+    width: 220px;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--color);
+   width: 105px;
+}
+
+p:nth-child(2n-1) {
+    text-align: right;
+}
+
+/* p {
+    border:
+        5px solid var(--color);
+    margin: 2px 2px;
+    padding: 10px 15px;
+    border-radius: 15px;
+} */
